@@ -1,10 +1,9 @@
 Om den här sidan
 ==============================================
 
-Den här sidan är skapad för att:
+Den här sidan är skapad av Malin i kursen design för redovisningar av
+labbar och uppgifter.
 
-* användas i undervisningen i [dbwebb-kursen design](http://dbwebb.se/design).
+[Länk till Github-repot för den här sidan](https://github.com/malinbrand/Anax-Flat).
 
-Källkoden för den här siten finns på GitHub i [canax/anax-flat](git@github.com:canax/anax-flat.git).
-
-Sidan är skapad av Malin
+![Google Doodle Gaudi](img/gaudi.jpg)
