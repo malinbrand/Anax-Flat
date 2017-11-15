@@ -6,4 +6,6 @@ labbar och uppgifter.
 
 [Länk till Github-repot för den här sidan](https://github.com/malinbrand/Anax-Flat).
 
+[Länk till Github-repot för theme](https://github.com/malinbrand/anax-flat-theme).
+
 ![Google Doodle Gaudi](img/gaudi.jpg)
