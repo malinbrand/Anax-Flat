@@ -11,6 +11,7 @@
 LESS 		 = theme/style.less
 LESS_OPTIONS = --strict-imports --include-path=theme/modules/
 
+
 # Colors and helptext
 NO_COLOR	= \033[0m
 ACTION		= \033[32;01m
@@ -87,7 +88,6 @@ less: prepare-build
 	@#cp build/css/style.css htdocs/css/
 
 	@#rsync -a $(FONT_AWESOME) htdocs/fonts/
-
 
 
 # target: less-lint           - Linting LESS/CSS stylesheet.
