@@ -17,20 +17,27 @@ return [
             "report" => [
                 "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
+                "title" => t("Redovisningar i kmoms"),
+                "mark-if-parent" => true,
+            ],
+
+            "analysis" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analys kmom04"),
                 "mark-if-parent" => true,
             ],
 
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
+                "title" => t("Om den här sidan")
             ],
 
-            "test" => [
-                "text" => t("Test"),
-                "url" => $this->di->get("url")->create("test"),
-                "title" => t("Test")
+            "theme" => [
+                "text" => t("Theme"),
+                "url" => $this->di->get("url")->create("theme"),
+                "title" => t("Theme")
             ],
 
             "grid" => [
@@ -40,9 +47,9 @@ return [
             ],
 
             "typography" => [
-                "text" => t("Typography"),
+                "text" => t("Typografi"),
                 "url" => $this->di->get("url")->create("typography"),
-                "title" => t("Typography")
+                "title" => t("Typografi")
             ],
         ],
     ],
@@ -65,6 +72,12 @@ return [
                 "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar för kmoms"),
+                "mark-if-parent" => true,
+            ],
+            "analysis" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analys kmom04"),
                 "mark-if-parent" => true,
             ],
 
