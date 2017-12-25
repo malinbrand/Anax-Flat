@@ -51,6 +51,16 @@ return [
                 "url" => $this->di->get("url")->create("typography"),
                 "title" => t("Typografi")
             ],
+            "images" => [
+                "text" => t("Bild"),
+                "url" => $this->di->get("url")->create("images"),
+                "title" => t("Bild")
+            ],
+            "blog" => [
+                "text" => t("Blog"),
+                "url" => $this->di->get("url")->create("blog"),
+                "title" => t("Blog")
+            ],
         ],
     ],
 
@@ -102,6 +112,16 @@ return [
                 "text" => t("Typography"),
                 "url" => $this->di->get("url")->create("typography"),
                 "title" => t("Typography")
+            ],
+            "images" => [
+                "text" => t("Bild"),
+                "url" => $this->di->get("url")->create("images"),
+                "title" => t("Bild")
+            ],
+            "blog" => [
+                "text" => t("Blog"),
+                "url" => $this->di->get("url")->create("blog"),
+                "title" => t("Blog")
             ],
         ],
     ],
