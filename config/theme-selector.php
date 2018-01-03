@@ -88,5 +88,37 @@ return [
             "class"      => "fun",
             "stylesheets" => []
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "design1" => [
+            "title"      => "A theme with...",
+            "class"      => "design1",
+            "stylesheets" => [
+                "css/design1.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            ],
+            "javascripts" => ["js/responsive-menu.js"],
+        ],
+
+        "design2" => [
+            "title"      => "A theme with...",
+            "class"      => "design2",
+            "stylesheets" => [
+                "css/design2.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            ],
+            "javascripts" => ["js/responsive-menu.js"],
+        ],
+
+        "design3" => [
+            "title"      => "A theme with...",
+            "class"      => "design3",
+            "stylesheets" => [
+                "css/design3.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            ],
+            "javascripts" => ["js/responsive-menu.js"],
+        ],
     ]
 ];
